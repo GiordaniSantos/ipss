@@ -61,7 +61,7 @@
             <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
                 <h1 class="mb-5">Os Cinco Solas da Reforma</h1>
                 <p class="mb-5">
-                    Os 5 pilares da reforma protestante, também conhecidos como 5 <i>Solas</i>, se referem às expressões latinas <i>Sola Fide, Sola Scriptura, Solus Christus, Sola Gratia</i> e <i>Soli Deo Gloria</i>, que significam respectivamente Somente a Fé, Somente a Escritura, Somente Cristo, Somente a Graça e Somente a Deus Glória. Estes termos, resumidamente, nos ensinam que somente pela fé na vida, morte e ressureição de Cristo Jesus, que nos são reveladas pelo Espírito Santo através das Escrituras Sagradas, podemos ser salvos da Santa Ira de Deus que nós merecíamos. Assim sendo, somos salvos somente pela Graça do Deus Triúno e, por isso, a Ele pertence toda a Glória
+                    Os 5 pilares da reforma protestante, também conhecidos como 5 <i>Solas</i>, se referem às expressões latinas <i>Sola Fide, Sola Scriptura, Solus Christus, Sola Gratia</i> e <i>Soli Deo Gloria</i>, que significam respectivamente Somente a Fé, Somente a Escritura, Somente Cristo, Somente a Graça e Somente a Deus toda Glória. Estes termos, resumidamente, nos ensinam que somente pela fé na vida, morte e ressureição de Cristo Jesus, que nos são reveladas pelo Espírito Santo através das Escrituras Sagradas, podemos ser salvos da Santa Ira de Deus que nós merecíamos. Assim sendo, somos salvos somente pela Graça do Deus Triúno e, por isso, a Ele pertence toda a Glória
                 </p>
             </div>
         </div>

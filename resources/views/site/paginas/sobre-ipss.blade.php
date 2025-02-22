@@ -305,7 +305,9 @@
         <div class="row g-5 mx-lg-0">
             <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
                 <h1 class="mb-5">Momentos de Tribulação</h1>
-                <p>Após a saída do Rev. Domingos, o pastor Edvaldo Xavier Gomes assumiu a liderança da igreja, acompanhado por sua esposa. Ele pastoreou a igreja de 2010 até 2017. Infelizmente, nesse período, houve intrigas e desavenças, o que resultou na transformação da Igreja Presbiteriana de Sapucaia do Sul novamente em uma congregação, com poucos membros remanescentes após 31 anos de história como igreja.   
+                <p>Após a saída do Rev. Domingos, o pastor Edvaldo Xavier Gomes assumiu a liderança da igreja, acompanhado por sua esposa. Ele pastoreou a igreja de 2010 até 2017. 
+                    
+                    <br><br>Infelizmente, esse foi um período em que a igreja voltou a ser congregação presbiteriana. 
 
                 </p>
 
@@ -330,9 +332,13 @@
             </div>
             <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
                 <h1 class="mb-5">Recomeço</h1>
-                <p class="mb-5">Contudo, Deus continuava no controle. Inicialmente, o Presbitério entregou a congregação, por um curto período, aos cuidados da Igreja de Sapiranga. Posteriormente, o Presbitério reassumiu a responsabilidade pela congregação, enviando o Rev. Everton de Borba Pereira para pastoreá-la com os poucos membros que restavam. O pastor Everton permanece pastoreando a igreja, sob a graça de nosso Deus, até os dias atuais (2024) juntamente com sua família.
-                    <br><br>Deus, em Sua Eterna Sabedoria, permitiu que todas essas coisas acontecessem com essa comunidade. Como Ele é sempre tão bondoso! Em 2020, durante a pandemia de COVID-19, Deus trouxe um novo grupo de pessoas que se tornaram membros da igreja, possibilitando, assim, um novo recomeço para a nossa comunidade. Que essas pessoas possam levar o Evangelho a toda criatura em Sapucaia do Sul.
-                    <br><br>Daqui em diante, a história continua com essas pessoas e, sob a bênção de Jesus Cristo, que elas sejam sempre orientadas em Seus caminhos, crescendo em amor e santidade. Amém.
+                <p class="mb-5">Contudo, Deus continuava no controle. Inicialmente, o Presbitério entregou a congregação, por um curto período, aos cuidados da Igreja Presbiteriana de Sapiranga. 
+                    Posteriormente, a Igreja Presbiteriana do Brasil em Canoas, com apoio do Plano Missionário Cooperativo (PMC) assumiu a responsabilidade pela congregação, enviando o Rev. Everton de Borba Pereira para pastoreá-la com os poucos membros que restavam. 
+                    O pastor Everton permanece pastoreando a igreja, sob a graça de nosso Deus, até os dias atuais (2025) juntamente com o novo conselho da igreja.
+                    <br><br>Deus, em Sua Eterna Sabedoria, permitiu que todas essas coisas acontecessem com essa comunidade. Como Ele é sempre tão bondoso, em 2020, durante a pandemia de COVID-19,
+                     Deus trouxe um novo grupo de pessoas que se tornaram membros da igreja, possibilitando, assim, um novo recomeço para a nossa comunidade. Que essas pessoas possam levar o Evangelho a
+                      toda criatura em Sapucaia do Sul e pelo mundo.
+                    <br><br>Daqui em diante, a história continua com essas pessoas e as demais que o Senhor enviar, sob a bênção de Jesus Cristo, que nós sejamos sempre orientados em Seus caminhos, crescendo em amor e santidade.
 
 
                 </p>
@@ -347,7 +353,9 @@
         <div class="row g-5 mx-lg-0">
             <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
                 <h1 class="mb-5">Considerações</h1>
-                <p>Este texto foi <em>adaptado por Jean Pereira Zeni</em>, com base no texto original <em>escrito pelo irmão Sr. Jorge David Machado</em>, filho do Sr. David Machado e da Sra. Maria Ana R. Machado. O Sr. Jorge vivenciou a história desta comunidade e permanece ativo na igreja até hoje (2024). Ele fez sua pública confissão de fé, foi batizado e também se casou nesta mesma igreja.
+                <p>Este texto foi <em>adaptado por Jean Pereira Zeni</em>, com base no texto original <em>escrito pelo irmão Presb. Hemérito Sr. Jorge David Machado que fez sua pública profissão de fé, batismo e casamento também nesta mesma igreja.</em>
+                    <br><br>Filho do Sr. David Machado e da Sra. Maria Ana R. Machado. O Sr. Jorge vivenciou a história desta comunidade e permanece ativo na igreja até hoje (2025). 
+                    
 
                 </p>
             </div>
