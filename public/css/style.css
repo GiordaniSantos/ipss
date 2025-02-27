@@ -370,6 +370,10 @@
     animation: pulse 1s ease-out .5s;
 }
 
+.testimonial-item p{
+    color: #555;
+}
+
 .testimonial-carousel .owl-dots {
     display: flex;
     align-items: center;

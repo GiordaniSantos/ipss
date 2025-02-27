@@ -128,19 +128,21 @@ $config = Configuracao::getConfig();
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     @foreach($reflexoes as $reflexao) 
-                        <div class="testimonial-item p-4 my-5">
-                            <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
-                            <div class="d-flex align-items-end mb-4">
-                                <!--<img class="img-fluid flex-shrink-0" src="images/cleber.jpg" style="width: 80px; height: 80px;">-->
-                                <div>
-                                    <h5 class="mb-1">{{$reflexao->nome}}</h5>
-                                    <p class="m-0">{{$reflexao->membro->nome}}</p>
+                        <a href="reflexao/{{$reflexao->id}}">
+                            <div class="testimonial-item p-4 my-5">
+                                <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                                <div class="d-flex align-items-end mb-4">
+                                    <!--<img class="img-fluid flex-shrink-0" src="images/cleber.jpg" style="width: 80px; height: 80px;">-->
+                                    <div>
+                                        <h5 class="mb-1">{{$reflexao->nome}}</h5>
+                                        <p class="m-0">{{$reflexao->membro->nome}}</p>
+                                    </div>
                                 </div>
+                                @if($reflexao->resumo) 
+                                    <p class="mb-0">{{$reflexao->resumo}}</p>
+                                @endif
                             </div>
-                            @if($reflexao->resumo) 
-                                <p class="mb-0">{{$reflexao->resumo}}</p>
-                            @endif
-                        </div>
+                        </a>
                     @endforeach
                     <!--<div class="testimonial-item p-4 my-5">
                         <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
