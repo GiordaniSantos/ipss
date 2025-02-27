@@ -16,6 +16,8 @@
                 right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
             },
             eventClick: function(event) {
+                var resumo = event.event.extendedProps.resumo;
+
                 diaInicial  = event.event.start.getDate().toString().padStart(2, '0'),
                 mesInicial  = (event.event.start.getMonth()+1).toString().padStart(2, '0'), //+1 pois no getMonth Janeiro começa com zero.
                 anoInicial  = event.event.start.getFullYear();
@@ -23,17 +25,24 @@
                 horaInicial = event.event.start.getHours().toString().padStart(2, "0");
                 minsIniciais = event.event.start.getMinutes().toString().padStart(2, "0");
 
-                diaFinal  = event.event.end.getDate().toString().padStart(2, '0'),
-                mesFinal  = (event.event.end.getMonth()+1).toString().padStart(2, '0'), //+1 pois no getMonth Janeiro começa com zero.
-                anoFinal  = event.event.end.getFullYear();
-                   // diaFinal+"/"+mesFinal+"/"+anoFinal
-                horaFinal = event.event.end.getHours().toString().padStart(2, "0");
-                minsFinais = event.event.end.getMinutes().toString().padStart(2, "0");
+                if(event.event.end){
+                    diaFinal  = event.event.end.getDate().toString().padStart(2, '0'),
+                    mesFinal  = (event.event.end.getMonth()+1).toString().padStart(2, '0'), //+1 pois no getMonth Janeiro começa com zero.
+                    anoFinal  = event.event.end.getFullYear();
+                       // diaFinal+"/"+mesFinal+"/"+anoFinal
+                    horaFinal = event.event.end.getHours().toString().padStart(2, "0");
+                    minsFinais = event.event.end.getMinutes().toString().padStart(2, "0");
+                }
                 var modal = $("#modal-agenda");
                 modal.modal('show');
                 $("#modal-agenda .modal-title").text(event.event.title);
-                $("#modal-agenda .modal-body .data-inicial p").text("Data de Início: "+diaInicial+"/"+mesInicial+"/"+anoInicial+ " às " +horaInicial+":"+minsIniciais+"hrs");
-                $("#modal-agenda .modal-body .data-final p").text("Data de Término: "+diaFinal+"/"+mesFinal+"/"+anoFinal+ " às " +horaFinal+":"+minsFinais+"hrs");
+                $("#modal-agenda .modal-body .resumo p").text(resumo);
+                if(event.event.start && !event.event.end){
+                    $("#modal-agenda .modal-body .data-inicial p").text("Data: "+diaInicial+"/"+mesInicial+"/"+anoInicial);
+                }else{
+                    $("#modal-agenda .modal-body .data-inicial p").text("Data de Início: "+diaInicial+"/"+mesInicial+"/"+anoInicial+ " às " +horaInicial+":"+minsIniciais+"hrs");
+                    $("#modal-agenda .modal-body .data-final p").text("Data de Término: "+diaFinal+"/"+mesFinal+"/"+anoFinal+ " às " +horaFinal+":"+minsFinais+"hrs");
+                }
             },
             locale: 'pt-br',
             editable: true,
@@ -62,17 +71,13 @@
         </div>
         <div class="row">
           @if (count($eventosLista) != 0)              
-            @foreach ($eventosLista as $evento)      
-                @include('site.agenda._list_item' , ['evento' => $evento])
+            @foreach ($eventosLista as $evento)
             @endforeach
           @endif
         </div>
     </section>
     <br><br><br><br>
-    <!--Modal-->
-    @if (count($eventosLista) != 0)
-        @include('site.agenda._modal_agenda' , ['evento' => $evento])
-    @endif
+    @include('site.agenda._modal_agenda' , ['evento' => $evento])
 @endsection
 
 <script type="text/javascript">

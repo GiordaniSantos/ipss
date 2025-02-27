@@ -18,6 +18,7 @@ class SiteEventoController extends Controller
                 'title' => $evento->title,
                 'start' => $evento->start,
                 'end' => $evento->end,
+                'resumo' => $evento->resumo
             ];
         }
   

@@ -4,7 +4,6 @@
             <!-- Modal Header -->
             <div class="modal-header">
                 <h4 class="modal-title"></h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <!-- Modal body -->
             <div class="modal-body">
@@ -14,8 +13,9 @@
                 <div class="data-final">
                     <p></p>
                 </div>
-                Para mais informações, veja os cards abaixo,
-                ou ligue (51) 8215-3223.
+                <div class="resumo">
+                    <p></p>
+                </div>
             </div>
             <!-- Modal footer -->
             <div class="modal-footer">
