@@ -110,19 +110,21 @@ if($pagina->getDocumentos()){
         <div class="container about py-5 px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
+                    <div class="position-relative h-100 text-center">
                         @if ($imagemCapa)
-                            <img class="position-absolute img-fluid w-100 h-100" src="{{url('/')}}/storage/uploads/pagina/{{$imagemCapa->id}}/{{$imagemCapa->arquivo}}" style="object-fit: cover;" alt="{{$imagemCapa->nome_original}}">
+                            <img class="img-fluid h-100" src="{{url('/')}}/storage/uploads/pagina/{{$imagemCapa->id}}/{{$imagemCapa->arquivo}}" style="object-fit: cover;" alt="{{$imagemCapa->nome_original}}">
                         @endif
                     </div>
                 </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="mb-5">{{$pagina->titulo}}</h1>
-                    <p class="mb-5">
-                        @if($pagina->descricao)
-                            <?=$pagina->descricao?>
-                        @endif
-                    </p>
+                <div class="col-lg-6 about-text wow fadeInUp d-flex" style="align-items: center;" data-wow-delay="0.3s">
+                    <div>
+                        <h1 class="mb-5">{{$pagina->titulo}}</h1>
+                        <p class="mb-5">
+                            @if($pagina->descricao)
+                                <?=$pagina->descricao?>
+                            @endif
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
