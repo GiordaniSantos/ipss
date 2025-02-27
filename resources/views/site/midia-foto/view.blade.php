@@ -26,21 +26,22 @@ if(count($foto->arquivos) != 0){
                         </div>
                     @endif
                 </div>
-                <div class="col-lg-5 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 class="mb-5">{{$foto->titulo}}</h1>
-                    <p class="mb-5">
-                        @if ($foto->credito)
-                            <strong>Crédito: </strong>{{$foto->credito}}<br />
-                        @endif
-                        @if ($foto->data_publicacao)
-                            <strong>Data de Publicação: </strong> {{$foto->data_publicacao->format('d/m/Y')}}<br>
-                        @endif
-                    </p>
-                    <p class="mb-5">
+                <div class="col-lg-5 about-text wow fadeInUp d-flex" style="align-items:center;" data-wow-delay="0.3s">
+                    <div>
+                        <h1 class="mb-5">{{$foto->titulo}}</h1>
+                        <p>
+                            @if ($foto->credito)
+                                <strong>Crédito: </strong>{{$foto->credito}}<br />
+                            @endif
+                            @if ($foto->data_publicacao)
+                                <strong>Data de Publicação: </strong> {{$foto->data_publicacao->format('d/m/Y')}}<br>
+                            @endif
+                        </p>
+                        <hr>
                         @if ($foto->descricao)
                             <?=$foto->descricao?>
                         @endif
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
     <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5">Galeria de Fotos</h1>
+                <h1 class="mb-5">Aconteceu na IPSS</h1>
             </div>
             <div class="row g-4">
                 @foreach ($fotos as $foto)
