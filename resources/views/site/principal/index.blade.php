@@ -175,7 +175,7 @@ $config = Configuracao::getConfig();
                                 </div>
                                 <h4 class="mb-3">{{$noticia->titulo}}</h4>
                                 <p>{{mb_strimwidth(strip_tags($noticia->resumo), 0, 40, " ...")}}</p>
-                                <a class="btn-slide mt-4" href="noticia/{{$noticia->id}}"><i class="fa fa-arrow-right"></i><span>Ler mais</span></a>
+                                <a class="btn-slide mt-4" href="noticia/{{$noticia->id}}"><i class="fa-solid fa-arrow-right"></i><span>Ler mais</span></a>
                             </div>
                         </div>
                     @endforeach
