@@ -32,6 +32,7 @@ $pastor = Membro::find(1);
 
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" defer crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
@@ -44,7 +45,7 @@ $pastor = Membro::find(1);
         <!-- Template Stylesheet -->
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     </head>
-
+    @include('site.layouts._partials._acessibilidade')
     <body class="d-flex flex-column h-100">
         @include('site.layouts._partials.header', ['config' => $config])
 
