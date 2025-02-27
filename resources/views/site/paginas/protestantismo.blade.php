@@ -29,17 +29,19 @@
 <div class="container-fluid overflow-hidden py-5 px-lg-0">
     <div class="container feature py-5 px-lg-0">
         <div class="row g-5 mx-lg-0">
-            <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5">Os Reformadores</h1>
-                <p class="mb-5">Dentre os reformadores há alguns nomes que recebem maior destaque, como por exemplo:
-                </p>
-                <ul>
-                    <li>Martinho Lutero (1483 - 1546)</li>
-                    <li>João Calvino (1509 - 1564)</li>
-                    <li>Huldrych Zwingli (Ulrico Zuínglio) (1484 - 1531)</li>
-                    <li>Jan Hus (1369 - 1415)</li>
-                    <li>John Wycliffe (1330 - 1384)</li>
-                </ul>
+            <div class="col-lg-6 feature-text wow fadeInUp d-flex" style="align-items: center;" data-wow-delay="0.1s">
+                <div>
+                    <h1 class="mb-5">Os Reformadores</h1>
+                    <p class="mb-5">Dentre os reformadores há alguns nomes que recebem maior destaque, como por exemplo:
+                    </p>
+                    <ul>
+                        <li>Martinho Lutero (1483 - 1546)</li>
+                        <li>João Calvino (1509 - 1564)</li>
+                        <li>Huldrych Zwingli (Ulrico Zuínglio) (1484 - 1531)</li>
+                        <li>Jan Hus (1369 - 1415)</li>
+                        <li>John Wycliffe (1330 - 1384)</li>
+                    </ul>
+                </div>
             </div>
             <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
@@ -55,20 +57,23 @@
         <div class="row g-5 mx-lg-0">
             <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="images/reforma_protestante.jpg" style="object-fit: cover;" alt="">
+                    <img class="img-fluid w-100 h-100" src="images/reforma_protestante.jpg" style="object-fit: cover;" alt="">
                 </div>
             </div>
-            <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                <h1 class="mb-5">Os Cinco Solas da Reforma</h1>
-                <p class="mb-5">
-                    Os 5 pilares da reforma protestante, também conhecidos como 5 <i>Solas</i>, se referem às expressões latinas <i>Sola Fide, Sola Scriptura, Solus Christus, Sola Gratia</i> e <i>Soli Deo Gloria</i>, que significam respectivamente Somente a Fé, Somente a Escritura, Somente Cristo, Somente a Graça e Somente a Deus toda Glória. Estes termos, resumidamente, nos ensinam que somente pela fé na vida, morte e ressureição de Cristo Jesus, que nos são reveladas pelo Espírito Santo através das Escrituras Sagradas, podemos ser salvos da Santa Ira de Deus que nós merecíamos. Assim sendo, somos salvos somente pela Graça do Deus Triúno e, por isso, a Ele pertence toda a Glória
-                </p>
+            <div class="col-lg-6 about-text wow fadeInUp d-flex" style="align-items: center;" data-wow-delay="0.3s">
+                <div>
+                    <h1 class="mb-5">Os Cinco Solas da Reforma</h1>
+                    <p class="mb-5">
+                        Os 5 pilares da reforma protestante, também conhecidos como 5 <i>Solas</i>, se referem às expressões latinas <i>Sola Fide, Sola Scriptura, Solus Christus, Sola Gratia</i> e <i>Soli Deo Gloria</i>, que significam respectivamente Somente a Fé, Somente a Escritura, Somente Cristo, Somente a Graça e Somente a Deus toda Glória. Estes termos, resumidamente, nos ensinam que somente pela fé na vida, morte e ressureição de Cristo Jesus, que nos são reveladas pelo Espírito Santo através das Escrituras Sagradas, podemos ser salvos da Santa Ira de Deus que nós merecíamos. Assim sendo, somos salvos somente pela Graça do Deus Triúno e, por isso, a Ele pertence toda a Glória
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <!-- TIMELINE DO PROTESTANTISMO -->
+<!--
 <div class="timeline">
 
 <div class="time-container left wow fadeInUp" data-wow-delay="0.5s">
@@ -78,5 +83,5 @@
           </div>
         </div>
 
-</div>
+</div>-->
 @endsection
