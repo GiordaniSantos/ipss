@@ -200,11 +200,11 @@ $config = Configuracao::getConfig();
                                 <h5 class="mb-0">{{$membro->nome}}</h5>
                                 <p>{{$membro->funcao}}</p>
                                 <div class="btn-slide mt-1">
-                                    <i class="fa fa-share"></i>
+                                    <i class="fa-solid fa-share"></i>
                                     <span>
-                                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#modal-membro-{{$membro->id}}"><i class="fab fa-plus"></i></a>
-                                        <a href="{{$membro->facebook ? $membro->facebook : '#'}}"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="{{$membro->instagram ? $membro->instagram : '#'}}"><i class="fab fa-instagram"></i></a>
+                                        <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#modal-membro-{{$membro->id}}"><i class="fa-solid fa-plus"></i></a>
+                                        <a href="{{$membro->facebook ? $membro->facebook : '#'}}"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="{{$membro->instagram ? $membro->instagram : '#'}}"><i class="fa-brands fa-instagram"></i></a>
                                     </span>
                                 </div>
                             </div>
