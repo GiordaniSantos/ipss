@@ -15,6 +15,6 @@ strtr(utf8_decode(trim($video->titulo)), utf8_decode("áàãâéêíóôõúüñ
         @if ($video->data_publicacao)
             <p>Data de Publicação: {{$video->data_publicacao->format('d/m/Y')}}</p>
         @endif
-        <a class="btn-slide mt-2" href="/video/{{$video->id}}/{{preg_replace('/[ -]+/' , '-' , $titulo_url)}}"><i class="fa fa-arrow-right"></i><span>Ver</span></a>
+        <a class="btn-slide mt-2" href="/video/{{$video->id}}/{{preg_replace('/[ -]+/' , '-' , $titulo_url)}}"><i class="fa-solid fa-arrow-right"></i><span>Ver</span></a>
     </div>
 </div>

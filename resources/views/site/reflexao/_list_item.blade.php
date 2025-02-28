@@ -13,6 +13,6 @@ strtr(utf8_decode(trim($reflexao->nome)), utf8_decode("áàãâéêíóôõúü�
                 <?=mb_strimwidth($reflexao->resumo, 0, 100, " ...")?>
             </p>
         @endif
-        <a class="btn-slide mt-3" style="position: absolute !important;" href="/reflexao/{{$reflexao->id}}/{{preg_replace('/[ -]+/' , '-' , $titulo_url)}}"><i class="fa fa-arrow-right"></i><span>Ler mais</span></a>
+        <a class="btn-slide mt-3" style="position: absolute !important;" href="/reflexao/{{$reflexao->id}}/{{preg_replace('/[ -]+/' , '-' , $titulo_url)}}"><i class="fa-solid fa-arrow-right"></i><span>Ler mais</span></a>
     </div>
 </div>

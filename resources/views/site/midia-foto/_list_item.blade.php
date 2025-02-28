@@ -20,6 +20,6 @@ strtr(utf8_decode(trim($foto->titulo)), utf8_decode("áàãâéêíóôõúüñ�
         @if ($foto->data_publicacao)
             <p>Data de Publicação: {{$foto->data_publicacao->format('d/m/Y')}}</p>
         @endif
-        <a class="btn-slide mt-2" href="/foto/{{$foto->id}}/{{preg_replace('/[ -]+/' , '-' , $titulo_url)}}"><i class="fa fa-arrow-right"></i><span>Ver</span></a>
+        <a class="btn-slide mt-2" href="/foto/{{$foto->id}}/{{preg_replace('/[ -]+/' , '-' , $titulo_url)}}"><i class="fa-solid fa-arrow-right"></i><span>Ver</span></a>
     </div>
 </div>
