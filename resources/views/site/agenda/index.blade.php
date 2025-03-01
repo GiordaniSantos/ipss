@@ -37,8 +37,10 @@
                 modal.modal('show');
                 $("#modal-agenda .modal-title").text(event.event.title);
                 $("#modal-agenda .modal-body .resumo p").text(resumo);
-                if(event.event.start && !event.event.end){
+
+                if(!event.event.end){
                     $("#modal-agenda .modal-body .data-inicial p").text("Data: "+diaInicial+"/"+mesInicial+"/"+anoInicial);
+                    $("#modal-agenda .modal-body .data-final p").text("");
                 }else{
                     $("#modal-agenda .modal-body .data-inicial p").text("Data de Início: "+diaInicial+"/"+mesInicial+"/"+anoInicial+ " às " +horaInicial+":"+minsIniciais+"hrs");
                     $("#modal-agenda .modal-body .data-final p").text("Data de Término: "+diaFinal+"/"+mesFinal+"/"+anoFinal+ " às " +horaFinal+":"+minsFinais+"hrs");
