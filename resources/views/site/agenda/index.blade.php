@@ -11,9 +11,9 @@
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
             headerToolbar: {
-                left: 'prev,next today',
+                left: 'prev',
                 center: 'title',
-                right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+                right: 'next'
             },
             eventClick: function(event) {
                 var resumo = event.event.extendedProps.resumo;
@@ -53,30 +53,34 @@
 </script>
 @endpush
 @section('conteudo')
-{{ Breadcrumbs::render('agenda') }}
-    <section class="container-fluid">
-        <div class="row">
-            <div></div>
-                <!-- Calendario -->
+    {{ Breadcrumbs::render('agenda') }}
+    <div class="container-xxl py-5">
+        <section class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 style="margin-bottom: 4rem">Calendário</h1>
+            </div>
+            @include('site.layouts._partials._redesSociais')
+            <br><br>
+            <div class="row">
+                    <!-- Calendario -->
                 <div class="col-12 order-1">
                     <div class="">
-                      <div class="">
-                        <div id='calendar'></div>
-                      </div>
+                        <div class="container-calendario">
+                            <div id='calendar'></div>
+                        </div>
                     </div>
                     <br /><br />
                 </div>
+                <br>
             </div>
-            <br>
-        </div>
-        <div class="row">
-          @if (count($eventosLista) != 0)              
-            @foreach ($eventosLista as $evento)
-            @endforeach
-          @endif
-        </div>
-    </section>
-    <br><br><br><br>
+            <div class="row">
+                @if (count($eventosLista) != 0)              
+                    @foreach ($eventosLista as $evento)
+                    @endforeach
+                @endif
+            </div>
+        </section>
+    </div>
     @include('site.agenda._modal_agenda' , ['evento' => $evento])
 @endsection
 
