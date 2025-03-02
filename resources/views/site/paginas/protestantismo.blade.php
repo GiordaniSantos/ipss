@@ -251,19 +251,18 @@
 
 <!-- REFERÊNCIAS BIBLIOGRÁFICAS -->
 
-<div class="container-fluid overflow-hidden py-5 px-lg-0">
+<div class="container overflow-hidden py-5 px-lg-0">
     <h2 class="text-center mb-5">Fontes:</h2>
 
     <ul class="text-justify">
-        <li class="mb-2 lead">- BEZERRA, Juliana. Reforma Protestante. Toda Matéria, [s.d.]. Disponível em: https://www.todamateria.com.br/reforma-protestante/. Acesso em: 10 jan. 2025</li>
-        <li class="mb-2 lead">- “João Calvino – dados biográficos”. Centro Presbiteriano de Pós-Graduação Andrew Jumper. Disponível em: https://cpaj.mackenzie.br/recursos/historia-de-igreja/artigo?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=24341&cHash=4d75c78b8da015b27c3fbf81db7cf910. Acesso em: 28 fev. 2025</li>
-        <li class="mb-2 lead">- PIPER, John. “A origem do Calvinismo”. Voltemos ao Evangelho. Disponível em: https://voltemosaoevangelho.com/blog/2021/06/a-origem-do-calvinismo/. Acesso em: 1 mar. 2025.</li>
+        <li class="mb-2 lead">- BEZERRA, Juliana. Reforma Protestante. Toda Matéria, [s.d.]. Disponível em: <a href="https://www.todamateria.com.br/reforma-protestante/" target="_blank">https://www.todamateria.com.br/reforma-protestante/</a>. Acesso em: 10 jan. 2025</li>
+        <li class="mb-2 lead">- “João Calvino – dados biográficos”. Centro Presbiteriano de Pós-Graduação Andrew Jumper. Disponível em: <a href="https://cpaj.mackenzie.br/recursos/historia-de-igreja/artigo?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=24341&cHash=4d75c78b8da015b27c3fbf81db7cf910" target="_blank">https://cpaj.mackenzie.br/recursos/historia-de-igreja/artigo?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=24341&cHash=4d75c78b8da015b27c3fbf81db7cf910</a>. Acesso em: 28 fev. 2025</li>
+        <li class="mb-2 lead">- PIPER, John. “A origem do Calvinismo”. Voltemos ao Evangelho. Disponível em: <a href="https://voltemosaoevangelho.com/blog/2021/06/a-origem-do-calvinismo/" target="_blank">https://voltemosaoevangelho.com/blog/2021/06/a-origem-do-calvinismo/</a>. Acesso em: 1 mar. 2025.</li>
         <li class="mb-2 lead">- SERRALHEIRO, Cosme Alves. A Primeira Igreja Presbiteriana de Porto Alegre: Uma História a Ser Contada (1953-2023). 1. ed. Porto Alegre: 2023.</li>
-        <li class="mb-2 lead">- SILVA, Daniel Neves. "Reforma protestante"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/historiag/reforma-protestante.htm. Acesso em 10 de janeiro de 2025.</li>
-        <li class="mb-2 lead">- SILVESTRE, Armando Araújo. Reforma Protestante. InfoEscola. Disponível em: https://www.infoescola.com/historia/reforma-protestante/. Acesso em: 10 jan. 2025.</li>
-        <li class="mb-2 lead">- WARFIELD, B.B. “João Calvino e a Reforma (reforma500)”. Voltemos ao Evangelho. Disponível em: https://voltemosaoevangelho.com/blog/2017/09/joao-calvino-e-reforma-reforma500/. Acesso em 27 fev. 2025 </li>
+        <li class="mb-2 lead">- SILVA, Daniel Neves. "Reforma protestante"; Brasil Escola. Disponível em: <a href="https://brasilescola.uol.com.br/historiag/reforma-protestante.htm" target="_blank">https://brasilescola.uol.com.br/historiag/reforma-protestante.htm</a>. Acesso em 10 de janeiro de 2025.</li>
+        <li class="mb-2 lead">- SILVESTRE, Armando Araújo. Reforma Protestante. InfoEscola. Disponível em: <a href="https://www.infoescola.com/historia/reforma-protestante/" target="_blank">https://www.infoescola.com/historia/reforma-protestante/</a>. Acesso em: 10 jan. 2025.</li>
+        <li class="mb-2 lead">- WARFIELD, B.B. “João Calvino e a Reforma (reforma500)”. Voltemos ao Evangelho. Disponível em: <a href="https://voltemosaoevangelho.com/blog/2017/09/joao-calvino-e-reforma-reforma500/" target="_blank">https://voltemosaoevangelho.com/blog/2017/09/joao-calvino-e-reforma-reforma500/</a>. Acesso em 27 fev. 2025 </li>
     </ul>
-
 </div>
 
 
